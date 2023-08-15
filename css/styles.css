@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.descuento{
+    position: fixed;
+    z-index: 13;
+    background-color: #1cd1b0;
+    height: 35px;
+    width: 1900px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+header{
+    position: fixed;
+    z-index: 12;
+    background-color: #00669f;
+    height: 120px;
+}
+
+h1{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin: 0;
+    width: 1900px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    display: flex;
+    width: 960px;
+    height: 530px;
+    gap: 2em;
+    position: relative;
+    left: 500px;
+    
+}
+
+.card{
+    position: relative;
+    top: 200px;
+}
+
+.bxs-heart{
+    color: red;
+    font-size: 35px;
+    position: relative;
+    z-index: 2;
+    top: 45px;
+    left: 15px;
+}
+
+.imagen{
+    border-radius: 200px;
+    position: relative;
+    z-index: 2;
+    left: 85px;
+    bottom: 70px;
+}
+
+.texto{
+    background-color: #f3f3f3;
+    position: relative;
+    z-index: -1;
+    bottom: 150px;
+    height: 360px;
+}
+
+h2, p, a{
+    position: relative;
+    top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, a{
+    text-align: center;
+}
+
+p{
+    padding: 1em;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+a{
+    text-decoration: none;
+    background-color: #00669f;
+    padding: 15px 40px;
+    color: white;
+}
+
+.url{
+    position: relative;
+    z-index: 10;
+    left: 70px;
+    bottom: 70px;
+}
+
+footer{
+    position: relative;
+    top: 500px;
+    background-color: #00669f;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 1em;
+}
